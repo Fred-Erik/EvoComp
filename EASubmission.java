@@ -7,14 +7,7 @@ import java.util.Properties;
 public class EASubmission implements ContestSubmission
 {
 	private Random rnd_;
-	private ContestEvaluation evaluation_;
-	private int evaluations_limit_;
-
-	public EASubmission()
-	{
-		rnd_ = new Random();
-	}
-
+	pr
 	public void setSeed(long seed)
 	{
 		// Set seed of algortihms random process
